@@ -44,6 +44,7 @@ function Signup() {
         <div>
             <h2>Signup</h2>
             <input type="name" placeholder="Name" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="address" placeholder="Address" value={email} onChange={(e) => setEmail(e.target.value)} />
             <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
             <button onClick={handleSignup}>Signup</button>
